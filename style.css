@@ -1,0 +1,92 @@
+*{
+    padding:0;
+    margin:0;
+   
+}
+.navbar{
+    background-image: linear-gradient(to right, #FFEFBA,#FFFFFF);
+    padding-top: 30px;
+}
+nav img{
+    width:50%;
+    margin-left: 50px;
+}
+nav li{
+    font-size: 16px;
+    margin: 0 10px;
+  
+}
+.button{
+    
+    border:none;
+    background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%);
+    color:aliceblue;
+    border-radius: 30px;
+    padding: 8px 20px;
+    margin: 0px 10px;
+ 
+
+}
+.navbar i{
+    margin: 0 6px;
+    font-size: 20px;
+}
+#banner{
+
+    background-image: linear-gradient(to right, #FFEFBA,#FFFFFF);
+    padding-top: 5%;
+    height:100vh;
+
+
+}
+.promo-title{
+    font-size: 60px;
+    font-weight: 450;
+    margin-top: 100px;
+  
+}
+#banner img{
+    width:80%;
+    margin-left: 80px;
+}
+
+
+
+
+
+
+    
+
+ @media only screen and (max-width: 480px) {
+    #banner{
+       
+        height:444vh;
+        
+    } 
+    .button{
+        display: none;
+    }
+    .navbar i{
+        display: none;
+    }
+  }
+ @media only screen and (max-width: 768px) {
+    #banner{
+       
+        height:444vh;
+    }
+  }
+
+
+  @media only screen and (max-width: 1024px) {
+    #banner{
+       
+        height:444vh;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    #banner{
+       
+        height:444h;
+    }
+  }
